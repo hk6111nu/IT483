@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    background-image: url(bats.gif);
+    font-size: 100%;
+    margin: 40px;
+}
+div{
+background: rgb(0,0,0);
+background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(241,178,113,1) 50%, rgba(112,84,41,1) 100%);
+    border-style: solid;
+}
+a{
+    font-weight: bold;
+}
+
+a:link{
+    color: orange;
+}
+
+
+ul{
+    line-height: 1.5;
+}
+
+li,
+p{
+    font-size: 95%;
+}
+
+em{
+    font-weight: bold;
+}
+
+header img{
+    float: left;
+    margin: 0 em;
+}
+header h2{
+    font-size: 220%;
+    color: orange;
+    /*  text-align: center;*/
+    text-shadow: 2px 2px 2px black;
+}
+main{
+    border-style: solid;
+    background: white;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    border: 3x solid black 3px;
+}
+main h1::first-letter{
+    font-style:italic;
+    font-size:150;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+}
